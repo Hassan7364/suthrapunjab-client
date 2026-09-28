@@ -4,7 +4,7 @@ import { LogoutOutlined } from "@ant-design/icons";
 
 import { items } from "./SidebarItems";
 
-import Routes from "./Routes";
+import DashboardRoutes from "./Routes";
 import { useLocation, useNavigate } from "react-router-dom";
 import { useAuthContext } from "../../context/AuthContext.js";
 import "./Dashboard.scss";
@@ -106,7 +106,7 @@ const Dashboard = () => {
         </Header>
         <Content className="dashboard-content">
           <div className="dashboard-content-inner">
-            <Routes />
+            <DashboardRoutes />
           </div>
         </Content>
         <Footer className="dashboard-footer">

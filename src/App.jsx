@@ -1,6 +1,6 @@
 import { ConfigProvider } from "antd";
 
-import Routes from "./pages/routes";
+import Routes from "./pages/Routes.jsx";
 
 import "./App.scss";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";

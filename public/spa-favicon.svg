@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="15" fill="#087b43"/>
+  <circle cx="32" cy="32" r="27" fill="none" stroke="#ffffff" stroke-opacity=".9" stroke-width="2"/>
+  <path d="M12 28h5v-7h4v7h3V17h4v11h3V20h4v8h3V15h4v13h3v-6h4v6h3v3H12z" fill="#ffffff"/>
+  <path d="M14 34h36v2H14z" fill="#d8ebd9"/>
+  <text x="32" y="52" fill="#ffffff" font-family="Arial, sans-serif" font-size="17" font-weight="800" text-anchor="middle">SPA</text>
+</svg>

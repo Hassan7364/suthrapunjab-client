@@ -1,0 +1,77 @@
+main.auth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .card {
+    max-width: 400px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+}
+
+.circle {
+  height: 40vh;
+  width: 40vh;
+  background-color: beige;
+}
+
+.circle1 {
+  animation: float1 20s ease-in-out infinite;
+}
+
+.circle2 {
+  animation: float2 28s ease-in-out infinite;
+}
+
+@keyframes float1 {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  20% {
+    transform: translate(50px, -10px);
+  }
+  40% {
+    transform: translate(-30px, 20px);
+  }
+  60% {
+    transform: translate(15px, -5px);
+  }
+  80% {
+    transform: translate(50px, 5px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+    // transform: translateX(0px);
+    // transform: translateY(-30px);
+  }
+}
+@keyframes float2 {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  20% {
+    transform: translate(-50px, 10px);
+  }
+  40% {
+    transform: translate(30px, -20px);
+  }
+  60% {
+    transform: translate(-15px, 5px);
+  }
+  80% {
+    transform: translate(-50px, -5px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+    // transform: translateX(0px);
+    // transform: translateY(-30px);
+  }
+}
+
+.box_shadow {
+  box-shadow:
+    rgba(0, 0, 0, 0.16) 0px 3px 6px,
+    rgba(0, 0, 0, 0.23) 0px 3px 6px !important;
+}

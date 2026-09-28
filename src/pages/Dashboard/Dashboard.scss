@@ -350,6 +350,28 @@
   margin: 0 auto;
 }
 
+.progress-top-header {
+  margin-bottom: 22px;
+}
+
+.progress-header-actions {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.progress-action-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.progress-summary {
+  margin-bottom: 20px;
+}
+
 .progress-heading {
   display: flex;
   align-items: flex-end;
@@ -450,6 +472,7 @@
 .progress-amo-name.ant-typography {
   max-width: 250px;
   margin: 2px 0 0;
+  padding-left: 8px;
   overflow: hidden;
   color: #263536;
   font-size: 15px;
@@ -545,6 +568,19 @@
 
   .progress-heading {
     align-items: flex-start;
+  }
+
+  .progress-top-header {
+    align-items: flex-start !important;
+    gap: 16px;
+  }
+
+  .progress-header-actions {
+    align-items: flex-start;
+  }
+
+  .progress-action-buttons {
+    justify-content: flex-start;
   }
 
   .progress-amo-stats {
